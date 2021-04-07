@@ -1,0 +1,14 @@
+{
+  "name": "proiecttq",
+  "version": "0.0.1",
+  "description": "api",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cmp": "tsc",
+    "run": "node ./compiled/app.js",
+    "cr" : "tsc && node ./compiled/app.js"
+  },
+  "author": "TechQuarter",
+  "license": "MIT"
+}
